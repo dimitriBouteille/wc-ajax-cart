@@ -18,7 +18,7 @@ La partie en Javascript reste à la charge du développeur.
 Si vous utilisez composer :
 
 ```
-composer require dbout/dbout-wc-ajax-cart
+composer require dbout/wc-ajax-cart
 ```
 
 Si vous n'utilisez pas composer, importez la classe `Dbout\Woocommerce\WcAjaxCart\WcAjaxCart` dans le fichier `functions.php` de votre thème :
