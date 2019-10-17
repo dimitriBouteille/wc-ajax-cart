@@ -1,0 +1,27 @@
+{
+  "name": "dbout/wc-ajax-cart",
+  "description": "Wordpress library that allows to manage the Woocommerce cart in Ajax.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["wordpress", "wp", "woocommerce", "ajax", "wc", "ajax", "cart"],
+  "homepage": "https://github.com/dimitriBouteille/dbout-wc-ajax-cart/",
+  "support": {
+    "issues": "https://github.com/dimitriBouteille/dbout-wc-ajax-cart/issues"
+  },
+  "authors": [
+    {
+      "name": "Dimitri Bouteille",
+      "email": "bonjour@dimitri-bouteille.fr",
+      "homepage": "https://github.com/dimitriBouteille",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dbout\\Woocommerce\\WcAjaxCart": "src/"
+    }
+  }
+}
